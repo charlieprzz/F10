@@ -1,0 +1,4 @@
+Task 1:
+    - Login
+    - Click on time sheets icon under quick lunch
+    - Print out employee name and time sheet period for all the employees

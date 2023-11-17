@@ -1,0 +1,60 @@
+{
+  "login": {
+    "username": {
+      "type": "css",
+      "value": "input[name=username]"
+    },
+    "password": {
+      "type": "css",
+      "value": "input[name=password]"
+    },
+    "loginButton": {
+      "type": "css",
+      "value": "button[type=submit]"
+    },
+    "errorMessage": {
+      "type": "css",
+      "value": "p.oxd-alert-content-text"
+    },
+    "requiredMessageForUsername": {
+      "type": "xpath",
+      "value": "//input[@name='username']/../../span"
+    },
+    "requiredMessageForPassword": {
+      "type": "xpath",
+      "value": "//input[@name='password']/../../span"
+    }
+  },
+
+  "dashboard": {
+    "dashboardHeader": {
+      "type": "xpath",
+      "value": "//h6[text()='Dashboard']"
+    },
+    "timesheetsIcon": {
+      "type": "css",
+      "value": "button[title=Timesheets]"
+    }
+  },
+
+  "sideMenu": {
+    "pim": {
+      "type": "xpath",
+      "value": "//span[text()='PIM']"
+    }
+  },
+
+  "pim": {
+    "getRows": {
+      "type": "css",
+      "value": "div.oxd-table-body > div > div"
+    }
+  },
+
+  "time": {
+    "getRows": {
+      "type": "css",
+      "value": "div.oxd-table-body div.oxd-table-row"
+    }
+  }
+}
